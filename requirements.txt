@@ -107,3 +107,5 @@ sentence-transformers
 faiss-cpu
 PyMuPDF
 python-dotenv
+pypdf
+unstructured
