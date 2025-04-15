@@ -18,7 +18,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
 # Page config
-st.set_page_config(page_title="DocuGemini AI", page_icon="📄", layout="wide")
+st.set_page_config(page_title="DocuAI", page_icon="📄", layout="wide")
 
 # Theme toggle
 dark_mode = st.sidebar.toggle("🌗 Dark Mode", value=False)
