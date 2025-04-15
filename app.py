@@ -66,7 +66,7 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # Title
-st.markdown(f'<div class="title-container"><h1>📄 DocuGemini: AI Notes Assistant</h1><p style="color:gray;">Chat with your PDF, PPTX, or DOCX using Gemini AI</p></div>', unsafe_allow_html=True)
+st.markdown(f'<div class="title-container"><h1>📄 DocuAI Notes Assistant</h1><p style="color:gray;">Chat with your PDF, PPTX, or DOCX using Gemini AI</p></div>', unsafe_allow_html=True)
 
 # Session state to store chat and vectorstore
 if "chat_history" not in st.session_state:
